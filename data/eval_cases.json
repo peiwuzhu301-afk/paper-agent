@@ -1,0 +1,22 @@
+[
+  {
+    "query": "retrieval augmented generation grounded evidence",
+    "relevant_paper_ids": ["P1", "P8"]
+  },
+  {
+    "query": "multi agent conversation framework",
+    "relevant_paper_ids": ["P3"]
+  },
+  {
+    "query": "reasoning acting tool use agents",
+    "relevant_paper_ids": ["P2", "P7"]
+  },
+  {
+    "query": "feedback reflection iterative refinement",
+    "relevant_paper_ids": ["P5", "P6"]
+  },
+  {
+    "query": "long form research report knowledge curation citations",
+    "relevant_paper_ids": ["P4"]
+  }
+]

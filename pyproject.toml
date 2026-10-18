@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-agent-demo"
+version = "1.0.0"
+description = "Paper-Agent: observable, resumable multi-agent literature research and report generation demo"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Paper-Agent Demo"}]
+dependencies = [
+  "fastapi==0.141.1",
+  "uvicorn[standard]>=0.35,<1",
+  "pydantic>=2.11,<3",
+  "pydantic-settings>=2.10,<3",
+  "python-dotenv>=1.1,<2",
+  "PyYAML>=6.0,<7",
+  "httpx>=0.28,<1",
+  "tenacity>=9.0,<10",
+  "typer>=0.16,<1",
+  "rich>=14,<15",
+  "pypdf>=5.9,<7",
+  "chromadb>=1.5.9,<2",
+  "langgraph==1.2.11",
+  "langgraph-checkpoint-sqlite==3.1.1",
+  "autogen-agentchat==0.7.5",
+  "autogen-ext[openai]==0.7.5"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4,<9",
+  "pytest-asyncio>=1.1,<2",
+  "ruff>=0.12,<1"
+]
+
+[project.scripts]
+paper-agent = "paper_agent.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "backend"}
+
+[tool.setuptools.packages.find]
+where = ["backend"]
+
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

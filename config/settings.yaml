@@ -1,0 +1,28 @@
+project:
+  name: Paper-Agent
+  language: zh-CN
+
+research:
+  max_papers: 6
+  top_k: 5
+  source: sample
+  download_pdfs: false
+  fulltext_char_limit: 24000
+
+workflow:
+  require_human_review: true
+  max_revision_rounds: 2
+  node_retry_attempts: 3
+
+report:
+  title_prefix: "Paper-Agent Research Report"
+  sections:
+    - Executive Summary
+    - Research Question
+    - Evidence Map
+    - Methods and Approaches
+    - Dataset and Evaluation
+    - Key Findings
+    - Contradictions and Limitations
+    - Open Questions
+    - References

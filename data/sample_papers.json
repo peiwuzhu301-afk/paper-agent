@@ -1,0 +1,122 @@
+[
+  {
+    "paper_id": "P1",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "authors": [
+      "Patrick Lewis",
+      "Ethan Perez",
+      "Aleksandra Piktus",
+      "et al."
+    ],
+    "year": 2020,
+    "abstract": "Introduces retrieval-augmented generation that combines a parametric sequence-to-sequence model with non-parametric retrieved passages, improving knowledge-intensive generation and enabling source-grounded outputs.",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "pdf_url": "https://arxiv.org/pdf/2005.11401",
+    "source": "sample"
+  },
+  {
+    "paper_id": "P2",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "authors": [
+      "Shunyu Yao",
+      "Jeffrey Zhao",
+      "Dian Yu",
+      "et al."
+    ],
+    "year": 2022,
+    "abstract": "Presents an approach that interleaves reasoning traces and environment actions, allowing language models to gather external information, update plans, and produce more interpretable task trajectories.",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "pdf_url": "https://arxiv.org/pdf/2210.03629",
+    "source": "sample"
+  },
+  {
+    "paper_id": "P3",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "authors": [
+      "Qingyun Wu",
+      "Gagan Bansal",
+      "Jieyu Zhang",
+      "et al."
+    ],
+    "year": 2023,
+    "abstract": "Describes a framework where customizable conversational agents cooperate through messages, tools, code execution, and human input to implement complex multi-agent workflows.",
+    "url": "https://arxiv.org/abs/2308.08155",
+    "pdf_url": "https://arxiv.org/pdf/2308.08155",
+    "source": "sample"
+  },
+  {
+    "paper_id": "P4",
+    "title": "STORM: Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+    "authors": [
+      "Yijia Shao",
+      "Yucheng Jiang",
+      "Theodore Kanell",
+      "et al."
+    ],
+    "year": 2024,
+    "abstract": "Studies automated knowledge curation for long-form report writing using retrieval, perspective-guided question asking, simulated conversations, outline construction, and citation-aware synthesis.",
+    "url": "https://arxiv.org/abs/2402.14207",
+    "pdf_url": "https://arxiv.org/pdf/2402.14207",
+    "source": "sample"
+  },
+  {
+    "paper_id": "P5",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "authors": [
+      "Noah Shinn",
+      "Federico Cassano",
+      "Ashwin Gopinath",
+      "et al."
+    ],
+    "year": 2023,
+    "abstract": "Introduces a feedback-driven agent architecture that stores verbal reflections after task attempts, using them as episodic memory to improve later planning and execution without parameter updates.",
+    "url": "https://arxiv.org/abs/2303.11366",
+    "pdf_url": "https://arxiv.org/pdf/2303.11366",
+    "source": "sample"
+  },
+  {
+    "paper_id": "P6",
+    "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+    "authors": [
+      "Aman Madaan",
+      "Niket Tandon",
+      "Prakhar Gupta",
+      "et al."
+    ],
+    "year": 2023,
+    "abstract": "Explores iterative generation, self-feedback, and refinement using the same language model, showing that explicit critique-and-revision loops can improve outputs across diverse generation tasks.",
+    "url": "https://arxiv.org/abs/2303.17651",
+    "pdf_url": "https://arxiv.org/pdf/2303.17651",
+    "source": "sample"
+  },
+  {
+    "paper_id": "P7",
+    "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+    "authors": [
+      "John Yang",
+      "Carlos E. Jimenez",
+      "Alexander Wettig",
+      "et al."
+    ],
+    "year": 2024,
+    "abstract": "Investigates how agent-computer interfaces and tool design affect language-model agents solving repository-level software tasks, emphasizing iterative observation, action, and environment feedback.",
+    "url": "https://arxiv.org/abs/2405.15793",
+    "pdf_url": "https://arxiv.org/pdf/2405.15793",
+    "source": "sample"
+  },
+  {
+    "paper_id": "P8",
+    "title": "Corrective Retrieval Augmented Generation",
+    "authors": [
+      "Shi-Qi Yan",
+      "Jia-Chen Gu",
+      "Ying-Lun Zhao",
+      "et al."
+    ],
+    "year": 2024,
+    "abstract": "Proposes a corrective retrieval-augmented generation strategy that evaluates retrieved evidence quality and triggers alternative retrieval or refinement when evidence is unreliable.",
+    "url": "https://arxiv.org/abs/2401.15884",
+    "pdf_url": "https://arxiv.org/pdf/2401.15884",
+    "source": "sample"
+  }
+]
